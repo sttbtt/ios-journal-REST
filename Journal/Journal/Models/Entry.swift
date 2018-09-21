@@ -15,7 +15,7 @@ struct Entry: Equatable, Codable {
     var timestamp: Date
     let identifier: String
     
-    init(title: String, bodyText: String, timestamp: Date = Date(), identifier: String = "") {
+    init(title: String, bodyText: String, timestamp: Date = Date(), identifier: String = UUID().uuidString) {
         self.title = title
         self.bodyText = bodyText
         self.timestamp = timestamp
@@ -23,3 +23,9 @@ struct Entry: Equatable, Codable {
     }
     
 }
+
+struct EntryResults: Codable {
+    var results: [Entry]
+}
+
+

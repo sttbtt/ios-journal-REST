@@ -15,6 +15,7 @@
 		F1B2A6B921543B6B00B29F5E /* EntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A6B821543B6B00B29F5E /* EntryTableViewCell.swift */; };
 		F1B2A6BB21543CF500B29F5E /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A6BA21543CF500B29F5E /* EntryDetailViewController.swift */; };
 		F1B2A6BD21543DCB00B29F5E /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A6BC21543DCB00B29F5E /* Entry.swift */; };
+		F1B2A6BF2154437D00B29F5E /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A6BE2154437D00B29F5E /* EntryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F1B2A6B821543B6B00B29F5E /* EntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTableViewCell.swift; sourceTree = "<group>"; };
 		F1B2A6BA21543CF500B29F5E /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
 		F1B2A6BC21543DCB00B29F5E /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		F1B2A6BE2154437D00B29F5E /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		F1B2A6B42154358900B29F5E /* Model Controlles */ = {
 			isa = PBXGroup;
 			children = (
+				F1B2A6BE2154437D00B29F5E /* EntryController.swift */,
 			);
 			path = "Model Controlles";
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B2A6BF2154437D00B29F5E /* EntryController.swift in Sources */,
 				F1B2A6BD21543DCB00B29F5E /* Entry.swift in Sources */,
 				F1B2A6B921543B6B00B29F5E /* EntryTableViewCell.swift in Sources */,
 				F1B2A6B721543A4400B29F5E /* EntriesTableViewController.swift in Sources */,

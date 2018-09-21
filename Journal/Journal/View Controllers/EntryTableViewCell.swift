@@ -10,9 +10,23 @@ import UIKit
 
 class EntryTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var titleLabel: UIView!
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var timeStampLabel: UILabel!
     @IBOutlet weak var bodyTextLabel: UILabel!
+    
+    var entry: Entry? {
+        didSet {
+            updateViews()
+        }
+    }
+    
+    func updateViews() {
+        titleLabel.text = entry?.title
+        let dateFormatter = DateFormatter()
+        timeStampLabel.text = dateFormatter.string(from: entry?.timestamp ?? Date())
+        bodyTextLabel.text = entry?.bodyText
+        
+    }
     
     
     override func awakeFromNib() {
